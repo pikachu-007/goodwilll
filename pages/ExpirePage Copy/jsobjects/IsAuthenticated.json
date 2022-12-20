@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "IsAuthenticated",
+    "pageId": "ExpirePage Copy",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tcheck: () => {\n\t\treturn \"Authenticated\"//appsmith.store.jwt? \"Authenticated\" : \"Unauthenticated\" \n\t}\n}",
+    "variables": []
+  },
+  "id": "ExpirePage Copy_IsAuthenticated",
+  "deleted": false,
+  "gitSyncId": "639b25381aacf7299573e76e_63a1797118e748015a3f7715"
+}

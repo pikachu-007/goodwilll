@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "PayoutType",
+    "pageId": "ListingPageGoodwill",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tgetValues: () => {\n\t\treturn [\n\t\t\t\t{\n\t\t\t\t\t\"label\": \"INCENTIVE\", \n\t\t\t\t\t\"value\": \"0\"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"label\": \"ADJUSTMENT\", \n\t\t\t\t\t\"value\": \"1\"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"label\": \"EARNING\", \n\t\t\t\t\t\"value\": \"3\"\n\t\t\t\t}\n\t\t\t]\n\t}\n}",
+    "variables": []
+  },
+  "id": "ListingPageGoodwill_PayoutType",
+  "deleted": false,
+  "gitSyncId": "639b25381aacf7299573e76e_639b25391aacf7299573e81e"
+}

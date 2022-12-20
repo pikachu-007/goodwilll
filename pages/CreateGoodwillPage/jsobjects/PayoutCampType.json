@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "PayoutCampType",
+    "pageId": "CreateGoodwillPage",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\t\n\tgetValues: () => {\n\t\treturn [\n\t\t\t{\"label\": \"TRIP FARE\", \"value\": \"TRIP_FARE\"},\n\t\t\t{\"label\": \"FIXED PERCENT COMMISSION\", \"value\": \"FIXED_PERCENT_COMMISSION\"},\n\t\t\t{\"label\": \"DRYRUN\", \"value\": \"DRYRUN\"}\n\t\t]\n\t}\n}",
+    "variables": []
+  },
+  "id": "CreateGoodwillPage_PayoutCampType",
+  "deleted": false,
+  "gitSyncId": "639b25381aacf7299573e76e_639b25391aacf7299573e843"
+}

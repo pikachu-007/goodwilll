@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "CreateGoodwillConfigCall",
+    "pageId": "CreateGoodwillPage",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\t\n\tcreate: () => {\n\t\t\n\t\tlet formDataValue = GoodwillForm.formData;\n\n\t\t\n\t\tformDataValue['userName'] = appsmith.user.email ;\n\t\tstoreValue(\"goodwill_payload\",formDataValue);\n\t\t//navigateTo(\"ListingPage\",{ \"campaigns\": [272,278]});\n\t\n\t\t// Calling Create Goodwill config API\n\tCreateGoodwillConfigApi.run(\n\t\t\t// On success\n\t\t\t()=>{\n\t\t\t\tshowAlert(\"Goodwill Config Created successfully\");\n\t\t\t\tnavigateTo(\"ListingPageGoodwill\");\n\t\n\t\t\t},\n\t\t\t// On error\n\t\t\t()=>{\n\t\t\t\tshowAlert(\"Something went wrong\");\n\t\t\t}\n\t\t);\n\t\t\n\t\n\t}\n}",
+    "variables": []
+  },
+  "id": "CreateGoodwillPage_CreateGoodwillConfigCall",
+  "deleted": false,
+  "gitSyncId": "639b25381aacf7299573e76e_639b25391aacf7299573e833"
+}

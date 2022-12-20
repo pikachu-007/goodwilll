@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "IsAuthenticated",
+    "pageId": "CreatePage",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tcheck: () => {\n\t\treturn \"Authenticated\"//appsmith.store.jwt? \"Authenticated\" : \"Unauthenticated\" \n\t}\n}",
+    "variables": []
+  },
+  "id": "CreatePage_IsAuthenticated",
+  "deleted": false,
+  "gitSyncId": "639b25381aacf7299573e76e_639b25391aacf7299573e855"
+}

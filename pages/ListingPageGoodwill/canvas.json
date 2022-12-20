@@ -1,0 +1,957 @@
+{
+  "unpublishedPage": {
+    "name": "ListingPageGoodwill",
+    "slug": "listingpagegoodwill",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 816,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 630,
+          "containerStyle": "none",
+          "snapRows": 125,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 59,
+          "minHeight": 600,
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
+          "children": [
+            {
+              "boxShadow": "none",
+              "widgetName": "ListingPageContainer",
+              "isCanvas": true,
+              "dynamicPropertyPathList": [
+                {
+                  "key": "isVisible"
+                }
+              ],
+              "displayName": "Tabs",
+              "iconSVG": "/static/media/icon.74a6d653.svg",
+              "topRow": 4,
+              "bottomRow": 61,
+              "parentRowSpace": 10,
+              "type": "TABS_WIDGET",
+              "hideCard": false,
+              "shouldScrollContents": false,
+              "animateLoading": true,
+              "parentColumnSpace": 12.5625,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 7,
+              "dynamicBindingPathList": [
+                {
+                  "key": "defaultTab"
+                },
+                {
+                  "key": "accentColor"
+                }
+              ],
+              "children": [
+                {
+                  "tabId": "tab1",
+                  "boxShadow": "none",
+                  "widgetName": "Canvas1",
+                  "displayName": "Canvas",
+                  "topRow": 0,
+                  "bottomRow": 580,
+                  "parentRowSpace": 1,
+                  "type": "CANVAS_WIDGET",
+                  "canExtend": true,
+                  "hideCard": true,
+                  "shouldScrollContents": false,
+                  "minHeight": 400,
+                  "parentColumnSpace": 1,
+                  "dynamicTriggerPathList": [],
+                  "leftColumn": 0,
+                  "dynamicBindingPathList": [],
+                  "children": [
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "Text1",
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "fontSize"
+                        }
+                      ],
+                      "displayName": "Text",
+                      "iconSVG": "/static/media/icon.97c59b52.svg",
+                      "topRow": 11,
+                      "bottomRow": 15,
+                      "parentRowSpace": 10,
+                      "type": "TEXT_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "overflow": "NONE",
+                      "parentColumnSpace": 12.5625,
+                      "dynamicTriggerPathList": [],
+                      "fontFamily": "System Default",
+                      "leftColumn": 2,
+                      "dynamicBindingPathList": [],
+                      "shouldTruncate": false,
+                      "truncateButtonColor": "#FFC13D",
+                      "text": "GoodWillConfiguration",
+                      "key": "95y1wkpg7l",
+                      "labelTextSize": "0.875rem",
+                      "rightColumn": 40,
+                      "textAlign": "LEFT",
+                      "widgetId": "8s1etrqoul",
+                      "isVisible": true,
+                      "fontStyle": "BOLD",
+                      "textColor": "#2E3D49",
+                      "version": 1,
+                      "parentId": "ay5tbgeabv",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "0px",
+                      "fontSize": "1.5rem"
+                    },
+                    {
+                      "boxShadow": "0px 0px 4px 3px #F6F7F8",
+                      "widgetName": "CreateGoodWillButton",
+                      "onClick": "{{navigateTo('CreateGoodwillPage', {})}}",
+                      "buttonColor": "#a8a7ad",
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "boxShadow"
+                        }
+                      ],
+                      "displayName": "Icon Button",
+                      "iconSVG": "/static/media/icon.1a0c634a.svg",
+                      "topRow": 11,
+                      "bottomRow": 15,
+                      "tooltip": "Create Campaign",
+                      "parentRowSpace": 10,
+                      "type": "ICON_BUTTON_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "parentColumnSpace": 12.5625,
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onClick"
+                        }
+                      ],
+                      "leftColumn": 58,
+                      "dynamicBindingPathList": [],
+                      "isDisabled": false,
+                      "key": "xwppr4hx85",
+                      "labelTextSize": "0.875rem",
+                      "rightColumn": 60,
+                      "iconName": "plus",
+                      "widgetId": "t5w9mjxzhh",
+                      "isVisible": true,
+                      "version": 1,
+                      "parentId": "ay5tbgeabv",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "0px",
+                      "buttonVariant": "PRIMARY",
+                      "boxShadowColor": "#F6F7F8"
+                    },
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "Divider1",
+                      "thickness": 2,
+                      "displayName": "Divider",
+                      "iconSVG": "/static/media/icon.cbe8f608.svg",
+                      "topRow": 6,
+                      "bottomRow": 10,
+                      "parentRowSpace": 10,
+                      "type": "DIVIDER_WIDGET",
+                      "capType": "nc",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "parentColumnSpace": 11.6611328125,
+                      "leftColumn": 0,
+                      "key": "gcffag65qh",
+                      "dividerColor": "#EBEBEB",
+                      "labelTextSize": "0.875rem",
+                      "orientation": "horizontal",
+                      "strokeStyle": "solid",
+                      "rightColumn": 63,
+                      "widgetId": "ygc1c3jeod",
+                      "capSide": 0,
+                      "isVisible": true,
+                      "version": 1,
+                      "parentId": "ay5tbgeabv",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "0px"
+                    },
+                    {
+                      "boxShadow": "0px 1px 3px #2E3D49",
+                      "widgetName": "IconButton2",
+                      "onClick": "{{LogoutCall.logout()}}",
+                      "buttonColor": "#F6F7F8",
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "boxShadow"
+                        }
+                      ],
+                      "displayName": "Icon Button",
+                      "iconSVG": "/static/media/icon.1a0c634a.svg",
+                      "topRow": 2,
+                      "bottomRow": 6,
+                      "parentRowSpace": 10,
+                      "type": "ICON_BUTTON_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "parentColumnSpace": 11.6611328125,
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onClick"
+                        }
+                      ],
+                      "leftColumn": 56,
+                      "dynamicBindingPathList": [],
+                      "isDisabled": false,
+                      "key": "60uxhghlsw",
+                      "labelTextSize": "0.875rem",
+                      "rightColumn": 60,
+                      "iconName": "power",
+                      "widgetId": "b3q3np7o9e",
+                      "isVisible": false,
+                      "version": 1,
+                      "parentId": "ay5tbgeabv",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "0.375rem",
+                      "buttonVariant": "PRIMARY",
+                      "boxShadowColor": "#2E3D49"
+                    },
+                    {
+                      "boxShadow": "0px 1px 3px rgba(0, 0, 0, 0.25)",
+                      "widgetName": "IconButton3",
+                      "onClick": "{{navigateTo('ListingPage', {})}}",
+                      "buttonColor": "#F6F7F8",
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "boxShadow"
+                        }
+                      ],
+                      "displayName": "Icon Button",
+                      "iconSVG": "/static/media/icon.1a0c634a.svg",
+                      "topRow": 2,
+                      "bottomRow": 6,
+                      "parentRowSpace": 10,
+                      "type": "ICON_BUTTON_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "parentColumnSpace": 11.6611328125,
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onClick"
+                        }
+                      ],
+                      "leftColumn": 7,
+                      "dynamicBindingPathList": [],
+                      "isDisabled": false,
+                      "key": "60uxhghlsw",
+                      "labelTextSize": "0.875rem",
+                      "rightColumn": 11,
+                      "iconName": "home",
+                      "widgetId": "grgjs0rxsf",
+                      "isVisible": true,
+                      "version": 1,
+                      "parentId": "ay5tbgeabv",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "0.375rem",
+                      "buttonVariant": "PRIMARY"
+                    },
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "ExpireButton",
+                      "onClick": "{{navigateTo('ExpireGoodwillPage', {})}}",
+                      "buttonColor": "#ef4444",
+                      "displayName": "Button",
+                      "iconSVG": "/static/media/icon.cca02633.svg",
+                      "topRow": 11,
+                      "bottomRow": 15,
+                      "tooltip": "Expire Campaign",
+                      "parentRowSpace": 10,
+                      "type": "BUTTON_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "parentColumnSpace": 9.89453125,
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onClick"
+                        }
+                      ],
+                      "leftColumn": 43,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "text": "Expire",
+                      "isDisabled": false,
+                      "key": "mvic2gikdh",
+                      "isDeprecated": false,
+                      "rightColumn": 56,
+                      "isDefaultClickDisabled": true,
+                      "widgetId": "72anip7q19",
+                      "isVisible": true,
+                      "recaptchaType": "V3",
+                      "version": 1,
+                      "parentId": "ay5tbgeabv",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "buttonVariant": "PRIMARY",
+                      "placement": "CENTER"
+                    },
+                    {
+                      "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
+                      "widgetName": "IconButton4",
+                      "onClick": "{{navigateTo('https://appsmith.porter.in/applications', {})}}",
+                      "buttonColor": "#f6f7f8",
+                      "displayName": "Icon Button",
+                      "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
+                      "searchTags": [
+                        "click",
+                        "submit"
+                      ],
+                      "topRow": 2,
+                      "bottomRow": 6,
+                      "parentRowSpace": 10,
+                      "type": "ICON_BUTTON_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "parentColumnSpace": 9.89453125,
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onClick"
+                        }
+                      ],
+                      "leftColumn": 2,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "isDisabled": false,
+                      "key": "1vk4wwj0kb",
+                      "isDeprecated": false,
+                      "rightColumn": 6,
+                      "iconName": "new-grid-item",
+                      "widgetId": "nxvdyoq0ji",
+                      "isVisible": true,
+                      "version": 1,
+                      "parentId": "ay5tbgeabv",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "buttonVariant": "PRIMARY"
+                    },
+                    {
+                      "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+                      "isVisibleDownload": true,
+                      "iconSVG": "/static/media/icon.db8a9cbd2acd22a31ea91cc37ea2a46c.svg",
+                      "topRow": 20,
+                      "isSortable": true,
+                      "type": "TABLE_WIDGET",
+                      "animateLoading": true,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "primaryColumns.status.computedValue"
+                        },
+                        {
+                          "key": "accentColor"
+                        },
+                        {
+                          "key": "borderRadius"
+                        },
+                        {
+                          "key": "boxShadow"
+                        },
+                        {
+                          "key": "childStylesheet.button.buttonColor"
+                        },
+                        {
+                          "key": "childStylesheet.button.borderRadius"
+                        },
+                        {
+                          "key": "childStylesheet.menuButton.menuColor"
+                        },
+                        {
+                          "key": "childStylesheet.menuButton.borderRadius"
+                        },
+                        {
+                          "key": "childStylesheet.iconButton.buttonColor"
+                        },
+                        {
+                          "key": "childStylesheet.iconButton.borderRadius"
+                        },
+                        {
+                          "key": "tableData"
+                        },
+                        {
+                          "key": "primaryColumns.id.computedValue"
+                        },
+                        {
+                          "key": "primaryColumns.vehicle_id.computedValue"
+                        },
+                        {
+                          "key": "primaryColumns.city_id.computedValue"
+                        },
+                        {
+                          "key": "primaryColumns.per_km_rate.computedValue"
+                        },
+                        {
+                          "key": "primaryColumns.per_minute_rate.computedValue"
+                        },
+                        {
+                          "key": "primaryColumns.deleted_at.computedValue"
+                        },
+                        {
+                          "key": "primaryColumns.city.computedValue"
+                        },
+                        {
+                          "key": "primaryColumns.vehicle.computedValue"
+                        },
+                        {
+                          "key": "primaryColumns.max_cap.computedValue"
+                        },
+                        {
+                          "key": "primaryColumns.min_km_threshold.computedValue"
+                        },
+                        {
+                          "key": "primaryColumns.min_minute_threshold.computedValue"
+                        },
+                        {
+                          "key": "primaryColumns.min_cap.computedValue"
+                        }
+                      ],
+                      "leftColumn": 2,
+                      "delimiter": ",",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "isVisibleFilters": true,
+                      "isVisible": true,
+                      "enableClientSideSearch": true,
+                      "version": 3,
+                      "totalRecordsCount": 0,
+                      "isLoading": false,
+                      "childStylesheet": {
+                        "button": {
+                          "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                          "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                          "boxShadow": "none"
+                        },
+                        "menuButton": {
+                          "menuColor": "{{appsmith.theme.colors.primaryColor}}",
+                          "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                          "boxShadow": "none"
+                        },
+                        "iconButton": {
+                          "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                          "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                          "boxShadow": "none"
+                        }
+                      },
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "columnSizeMap": {
+                        "task": 245,
+                        "step": 62,
+                        "status": 75
+                      },
+                      "widgetName": "GoodWillTable",
+                      "defaultPageSize": 0,
+                      "columnOrder": [
+                        "id",
+                        "vehicle_id",
+                        "city_id",
+                        "per_km_rate",
+                        "per_minute_rate",
+                        "max_cap",
+                        "deleted_at",
+                        "min_km_threshold",
+                        "min_minute_threshold",
+                        "min_cap",
+                        "status",
+                        "city",
+                        "vehicle"
+                      ],
+                      "dynamicPropertyPathList": [],
+                      "displayName": "Table",
+                      "searchTags": [
+                        "datagrid"
+                      ],
+                      "bottomRow": 56,
+                      "parentRowSpace": 10,
+                      "defaultSelectedRow": "0",
+                      "hideCard": false,
+                      "parentColumnSpace": 9.89453125,
+                      "dynamicTriggerPathList": [],
+                      "primaryColumns": {
+                        "status": {
+                          "index": 2,
+                          "width": 150,
+                          "id": "status",
+                          "horizontalAlignment": "LEFT",
+                          "verticalAlignment": "CENTER",
+                          "columnType": "text",
+                          "textSize": "0.875rem",
+                          "enableFilter": true,
+                          "enableSort": true,
+                          "isVisible": true,
+                          "isCellVisible": true,
+                          "isDerived": false,
+                          "label": "Status",
+                          "computedValue": "{{GoodWillTable.sanitizedTableData.map((currentRow) => ( currentRow.status))}}",
+                          "labelColor": "#FFFFFF"
+                        },
+                        "id": {
+                          "index": 0,
+                          "width": 150,
+                          "id": "id",
+                          "horizontalAlignment": "LEFT",
+                          "verticalAlignment": "CENTER",
+                          "columnType": "text",
+                          "textColor": "",
+                          "textSize": "0.875rem",
+                          "enableFilter": true,
+                          "enableSort": true,
+                          "isVisible": true,
+                          "isDisabled": false,
+                          "isCellVisible": true,
+                          "isDerived": false,
+                          "label": "id",
+                          "computedValue": "{{GoodWillTable.sanitizedTableData.map((currentRow) => ( currentRow.id))}}",
+                          "cellBackground": ""
+                        },
+                        "vehicle_id": {
+                          "index": 1,
+                          "width": 150,
+                          "id": "vehicle_id",
+                          "horizontalAlignment": "LEFT",
+                          "verticalAlignment": "CENTER",
+                          "columnType": "text",
+                          "textColor": "",
+                          "textSize": "0.875rem",
+                          "enableFilter": true,
+                          "enableSort": true,
+                          "isVisible": false,
+                          "isDisabled": false,
+                          "isCellVisible": true,
+                          "isDerived": false,
+                          "label": "vehicle_id",
+                          "computedValue": "{{GoodWillTable.sanitizedTableData.map((currentRow) => ( currentRow.vehicle_id))}}",
+                          "cellBackground": ""
+                        },
+                        "city_id": {
+                          "index": 2,
+                          "width": 150,
+                          "id": "city_id",
+                          "horizontalAlignment": "LEFT",
+                          "verticalAlignment": "CENTER",
+                          "columnType": "text",
+                          "textColor": "",
+                          "textSize": "0.875rem",
+                          "enableFilter": true,
+                          "enableSort": true,
+                          "isVisible": false,
+                          "isDisabled": false,
+                          "isCellVisible": true,
+                          "isDerived": false,
+                          "label": "city_id",
+                          "computedValue": "{{GoodWillTable.sanitizedTableData.map((currentRow) => ( currentRow.city_id))}}",
+                          "cellBackground": ""
+                        },
+                        "per_km_rate": {
+                          "index": 3,
+                          "width": 150,
+                          "id": "per_km_rate",
+                          "horizontalAlignment": "LEFT",
+                          "verticalAlignment": "CENTER",
+                          "columnType": "text",
+                          "textColor": "",
+                          "textSize": "0.875rem",
+                          "enableFilter": true,
+                          "enableSort": true,
+                          "isVisible": true,
+                          "isDisabled": false,
+                          "isCellVisible": true,
+                          "isDerived": false,
+                          "label": "Per Km Rate(₹)",
+                          "computedValue": "{{GoodWillTable.sanitizedTableData.map((currentRow) => ( currentRow.per_km_rate/100))}}",
+                          "cellBackground": ""
+                        },
+                        "per_minute_rate": {
+                          "index": 4,
+                          "width": 150,
+                          "id": "per_minute_rate",
+                          "horizontalAlignment": "LEFT",
+                          "verticalAlignment": "CENTER",
+                          "columnType": "text",
+                          "textColor": "",
+                          "textSize": "0.875rem",
+                          "enableFilter": true,
+                          "enableSort": true,
+                          "isVisible": true,
+                          "isDisabled": false,
+                          "isCellVisible": true,
+                          "isDerived": false,
+                          "label": "Per Minute Rate(₹)",
+                          "computedValue": "{{GoodWillTable.sanitizedTableData.map((currentRow) => ( currentRow.per_minute_rate/100))}}",
+                          "cellBackground": ""
+                        },
+                        "deleted_at": {
+                          "index": 6,
+                          "width": 150,
+                          "id": "deleted_at",
+                          "horizontalAlignment": "LEFT",
+                          "verticalAlignment": "CENTER",
+                          "columnType": "text",
+                          "textColor": "",
+                          "textSize": "0.875rem",
+                          "enableFilter": true,
+                          "enableSort": true,
+                          "isVisible": false,
+                          "isDisabled": false,
+                          "isCellVisible": true,
+                          "isDerived": false,
+                          "label": "deleted_at",
+                          "computedValue": "{{GoodWillTable.sanitizedTableData.map((currentRow) => ( currentRow.deleted_at))}}",
+                          "cellBackground": ""
+                        },
+                        "city": {
+                          "index": 8,
+                          "width": 150,
+                          "id": "city",
+                          "horizontalAlignment": "LEFT",
+                          "verticalAlignment": "CENTER",
+                          "columnType": "text",
+                          "textColor": "",
+                          "textSize": "0.875rem",
+                          "enableFilter": true,
+                          "enableSort": true,
+                          "isVisible": true,
+                          "isDisabled": false,
+                          "isCellVisible": true,
+                          "isDerived": false,
+                          "label": "City",
+                          "computedValue": "{{GoodWillTable.sanitizedTableData.map((currentRow) => ( currentRow.city))}}",
+                          "cellBackground": ""
+                        },
+                        "vehicle": {
+                          "index": 9,
+                          "width": 150,
+                          "id": "vehicle",
+                          "horizontalAlignment": "LEFT",
+                          "verticalAlignment": "CENTER",
+                          "columnType": "text",
+                          "textColor": "",
+                          "textSize": "0.875rem",
+                          "enableFilter": true,
+                          "enableSort": true,
+                          "isVisible": true,
+                          "isDisabled": false,
+                          "isCellVisible": true,
+                          "isDerived": false,
+                          "label": "Vehicle",
+                          "computedValue": "{{GoodWillTable.sanitizedTableData.map((currentRow) => ( currentRow.vehicle))}}",
+                          "cellBackground": ""
+                        },
+                        "max_cap": {
+                          "index": 5,
+                          "width": 150,
+                          "id": "max_cap",
+                          "horizontalAlignment": "LEFT",
+                          "verticalAlignment": "CENTER",
+                          "columnType": "text",
+                          "textColor": "",
+                          "textSize": "0.875rem",
+                          "enableFilter": true,
+                          "enableSort": true,
+                          "isVisible": true,
+                          "isDisabled": false,
+                          "isCellVisible": true,
+                          "isDerived": false,
+                          "label": "max_cap",
+                          "computedValue": "{{GoodWillTable.sanitizedTableData.map((currentRow) => ( currentRow.max_cap))}}",
+                          "cellBackground": ""
+                        },
+                        "min_km_threshold": {
+                          "index": 7,
+                          "width": 150,
+                          "id": "min_km_threshold",
+                          "horizontalAlignment": "LEFT",
+                          "verticalAlignment": "CENTER",
+                          "columnType": "text",
+                          "textColor": "",
+                          "textSize": "0.875rem",
+                          "enableFilter": true,
+                          "enableSort": true,
+                          "isVisible": true,
+                          "isDisabled": false,
+                          "isCellVisible": true,
+                          "isDerived": false,
+                          "label": "min_km_threshold",
+                          "computedValue": "{{GoodWillTable.sanitizedTableData.map((currentRow) => ( currentRow.min_km_threshold))}}",
+                          "cellBackground": ""
+                        },
+                        "min_minute_threshold": {
+                          "index": 8,
+                          "width": 150,
+                          "id": "min_minute_threshold",
+                          "horizontalAlignment": "LEFT",
+                          "verticalAlignment": "CENTER",
+                          "columnType": "text",
+                          "textColor": "",
+                          "textSize": "0.875rem",
+                          "enableFilter": true,
+                          "enableSort": true,
+                          "isVisible": true,
+                          "isDisabled": false,
+                          "isCellVisible": true,
+                          "isDerived": false,
+                          "label": "min_minute_threshold",
+                          "computedValue": "{{GoodWillTable.sanitizedTableData.map((currentRow) => ( currentRow.min_minute_threshold))}}",
+                          "cellBackground": ""
+                        },
+                        "min_cap": {
+                          "index": 9,
+                          "width": 150,
+                          "id": "min_cap",
+                          "horizontalAlignment": "LEFT",
+                          "verticalAlignment": "CENTER",
+                          "columnType": "text",
+                          "textColor": "",
+                          "textSize": "0.875rem",
+                          "enableFilter": true,
+                          "enableSort": true,
+                          "isVisible": true,
+                          "isDisabled": false,
+                          "isCellVisible": true,
+                          "isDerived": false,
+                          "label": "min_cap",
+                          "computedValue": "{{GoodWillTable.sanitizedTableData.map((currentRow) => ( currentRow.min_cap))}}",
+                          "cellBackground": ""
+                        }
+                      },
+                      "key": "ip9648jjae",
+                      "derivedColumns": {},
+                      "isDeprecated": false,
+                      "rightColumn": 62,
+                      "textSize": "0.875rem",
+                      "widgetId": "c3pelik23j",
+                      "tableData": "{{GoodwillConfigData.getGoodwillConfig()}}",
+                      "label": "Data",
+                      "searchKey": "",
+                      "parentId": "ay5tbgeabv",
+                      "renderMode": "CANVAS",
+                      "horizontalAlignment": "LEFT",
+                      "isVisibleSearch": true,
+                      "isVisiblePagination": true,
+                      "verticalAlignment": "CENTER"
+                    }
+                  ],
+                  "isDisabled": false,
+                  "key": "wkqzjnlsuk",
+                  "labelTextSize": "0.875rem",
+                  "tabName": "Authenticated",
+                  "rightColumn": 301.5,
+                  "detachFromLayout": true,
+                  "widgetId": "ay5tbgeabv",
+                  "isVisible": true,
+                  "version": 1,
+                  "parentId": "jw51in4uwk",
+                  "renderMode": "CANVAS",
+                  "isLoading": false,
+                  "borderRadius": "0px"
+                },
+                {
+                  "tabId": "tab2",
+                  "boxShadow": "none",
+                  "widgetName": "Canvas2",
+                  "displayName": "Canvas",
+                  "topRow": 0,
+                  "bottomRow": 390,
+                  "parentRowSpace": 1,
+                  "type": "CANVAS_WIDGET",
+                  "canExtend": true,
+                  "hideCard": true,
+                  "shouldScrollContents": false,
+                  "minHeight": 400,
+                  "parentColumnSpace": 1,
+                  "dynamicTriggerPathList": [],
+                  "leftColumn": 0,
+                  "dynamicBindingPathList": [],
+                  "children": [
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "Text2",
+                      "displayName": "Text",
+                      "iconSVG": "/static/media/icon.97c59b52.svg",
+                      "topRow": 4,
+                      "bottomRow": 8,
+                      "parentRowSpace": 10,
+                      "type": "TEXT_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "overflow": "NONE",
+                      "parentColumnSpace": 11.6611328125,
+                      "dynamicTriggerPathList": [],
+                      "fontFamily": "System Default",
+                      "leftColumn": 4,
+                      "dynamicBindingPathList": [],
+                      "shouldTruncate": false,
+                      "truncateButtonColor": "#FFC13D",
+                      "text": "You are not logged in. Click here to ",
+                      "key": "vn8oo2j8ac",
+                      "labelTextSize": "0.875rem",
+                      "rightColumn": 26,
+                      "textAlign": "LEFT",
+                      "widgetId": "5kykgmythe",
+                      "isVisible": true,
+                      "fontStyle": "BOLD",
+                      "textColor": "#231F20",
+                      "version": 1,
+                      "parentId": "huvjtlpg2q",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "0px",
+                      "fontSize": "0.875rem"
+                    },
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "Button1",
+                      "onClick": "{{navigateTo('Login')}}",
+                      "buttonColor": "#03B365",
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "onClick"
+                        }
+                      ],
+                      "displayName": "Button",
+                      "iconSVG": "/static/media/icon.cca02633.svg",
+                      "topRow": 4,
+                      "bottomRow": 8,
+                      "parentRowSpace": 10,
+                      "type": "BUTTON_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "parentColumnSpace": 11.6611328125,
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onClick"
+                        }
+                      ],
+                      "leftColumn": 26,
+                      "dynamicBindingPathList": [],
+                      "text": "Login",
+                      "isDisabled": false,
+                      "key": "mb9arlps1f",
+                      "labelTextSize": "0.875rem",
+                      "rightColumn": 34,
+                      "isDefaultClickDisabled": true,
+                      "widgetId": "hl0cuwcznd",
+                      "isVisible": true,
+                      "recaptchaType": "V3",
+                      "version": 1,
+                      "parentId": "huvjtlpg2q",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "0px",
+                      "buttonVariant": "PRIMARY",
+                      "placement": "CENTER"
+                    }
+                  ],
+                  "isDisabled": false,
+                  "key": "wkqzjnlsuk",
+                  "labelTextSize": "0.875rem",
+                  "tabName": "Unauthenticated",
+                  "rightColumn": 301.5,
+                  "detachFromLayout": true,
+                  "widgetId": "huvjtlpg2q",
+                  "isVisible": true,
+                  "version": 1,
+                  "parentId": "jw51in4uwk",
+                  "renderMode": "CANVAS",
+                  "isLoading": false,
+                  "borderRadius": "0px"
+                }
+              ],
+              "key": "na1yo0giik",
+              "labelTextSize": "0.875rem",
+              "rightColumn": 59,
+              "widgetId": "jw51in4uwk",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "defaultTab": "{{IsAuthenticated.check()}}",
+              "shouldShowTabs": false,
+              "tabsObj": {
+                "tab1": {
+                  "label": "Authenticated",
+                  "id": "tab1",
+                  "widgetId": "ay5tbgeabv",
+                  "isVisible": true,
+                  "index": 0
+                },
+                "tab2": {
+                  "label": "Unauthenticated",
+                  "id": "tab2",
+                  "widgetId": "huvjtlpg2q",
+                  "isVisible": true,
+                  "index": 1
+                }
+              },
+              "isVisible": "true",
+              "version": 3,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "0px"
+            }
+          ]
+        },
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "ListingPageGoodwill_GeoRegion",
+              "name": "GeoRegion",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "ListingPageGoodwill_GoodwillConfig",
+              "name": "GoodwillConfig",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "ListingPageGoodwill_VehicleTypeData",
+              "name": "VehicleTypeData",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
+        "validOnPageLoadActions": true,
+        "id": "ListingPageGoodwill",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": [],
+    "isHidden": false
+  },
+  "deleted": false,
+  "gitSyncId": "639b25381aacf7299573e76e_639b25381aacf7299573e77d"
+}

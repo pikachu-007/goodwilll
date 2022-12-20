@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "ExpireGoodwillCall",
+    "pageId": "ExpireGoodwillPage",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\t\n\tcreate: () => {\n\t\t\n\t\tlet formDataValue = ExpireGoodwillForm.formData;\n\t\t\n\t\n\t\tstoreValue(\"expire_goodwill_payload\",formDataValue);\n\t\t\n\t\t// Calling Create Goodwill config API\n\tExpireGoodwillApi.run(\n\t\t\t// On success\n\t\t\t()=>{\n\t\t\t\tshowAlert(\"Goodwill cofig expired successfully\");\n\t\t\t\tnavigateTo(\"ListingPageGoodwill\");\n\t\n\t\t\t},\n\t\t\t// On error\n\t\t\t()=>{\n\t\t\t\tshowAlert(\"Something went wrong\");\n\t\t\t}\n\t\t);\n\t\t\n\t\t//navigateTo(\"ListingPage\",{ \"campaigns\": [272,278]});\n\t\n\t\t// Calling CreateCampaing API\n\t\t\t\n\t\t\n\t}\n}",
+    "variables": []
+  },
+  "id": "ExpireGoodwillPage_ExpireGoodwillCall",
+  "deleted": false,
+  "gitSyncId": "639b25381aacf7299573e76e_639b25391aacf7299573e84b"
+}

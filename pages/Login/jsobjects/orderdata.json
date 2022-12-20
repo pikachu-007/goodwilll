@@ -1,0 +1,20 @@
+{
+  "unpublishedCollection": {
+    "name": "orderdata",
+    "pageId": "Login",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\torder_id: [],\n\t\n}",
+    "variables": [
+      {
+        "name": "order_id",
+        "value": []
+      }
+    ]
+  },
+  "id": "Login_orderdata",
+  "deleted": false,
+  "gitSyncId": "639b25381aacf7299573e76e_639b253a1aacf7299573e875"
+}

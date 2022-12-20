@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "GoodwillConfigData",
+    "pageId": "ListingPageGoodwill",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tgetGoodwillConfig: () => {\n\t\tlet geo_regions = GeoRegion.data;\n\t\tlet vehicles_data = VehicleTypeData.data;\n\t\tlet table_data = GoodwillConfig.data;\n\t\ttable_data.map(function(config){\n\t\t\t let geo_name = geo_regions.filter(d => d.id == config['city_id'])\n\t\t\t config['city'] =  typeof geo_name[0] != 'undefined' ? geo_name[0].name : \"Not Defined\";\n\t\t\t\n\t\t\t let vehicle_name = vehicles_data.filter(d => d.id == config['vehicle_id'])\n\t\t\t config['vehicle'] =  typeof vehicle_name[0] != 'undefined' ? vehicle_name[0].vehicle_type : \"Not Defined\";\n\t\t\t \n\t\t\t return config;\n\t\t})\n\n\t\treturn table_data;\n\t\t\n\t},\n\tfindPositions: (arr) => {\n   const indicies = [];\n\t\tif(typeof arr == 'undefined' ||arr.length == 0){\n\t\t\treturn [];\n\t\t}\n   GoodwillConfig.data.forEach((element, index) => {\n      if(arr.includes(element.id)){\n         indicies.push(index);\n      }\n   });\n   return indicies;\n\t}\n\t\n}\n",
+    "variables": []
+  },
+  "id": "ListingPageGoodwill_GoodwillConfigData",
+  "deleted": false,
+  "gitSyncId": "639b25381aacf7299573e76e_639b25391aacf7299573e818"
+}
